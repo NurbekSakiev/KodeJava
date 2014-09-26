@@ -6,14 +6,12 @@ public class UnderscoreNumeric {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int maxInt = 2_147_483_647;
-		int minInt = -2_147_483_648;
+		int x = Integer.parseInt("00101010",2);
 		
-		if (maxInt = Integer.MAX_VALUE) {
-			System.out.println("maxInt = "+ maxInt);
-		}
-		if (minInt = Integer.MIN_VALUE) {
-			System.out.println("minInt = "+ minInt);
+		System.out.print(x);
+		
+		
 		}
 	}
 
-}
+
