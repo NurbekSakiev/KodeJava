@@ -19,8 +19,5 @@ public class Truck extends Car{
 				+getModel()+ "; LoadCapacity: "+getLoadCapacity(); 
 	}
 	
-	public static void main(String[] args) {
-		Truck truck = new Truck("one","two", "three");
-		System.out.print(truck.getCarInfo());
-	}
+	
 }
